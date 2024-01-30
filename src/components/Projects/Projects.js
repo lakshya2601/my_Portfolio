@@ -5,6 +5,7 @@ import ProjectCard from "./ProjectCards";
 import netflix from "../../Assets/Projects/netflix.png";
 import budget from "../../Assets/Projects/budget.jpeg";
 import make_easy from "../../Assets/Projects/make_easy.jpeg";
+import weather from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
@@ -49,6 +50,16 @@ The technology used in this project are HTML, CSS, JavaScript, SCSS.  "
 The technology used in this project are HTML, CSS, JavaScript, React.js, Material UI and Speechly(used for voice traning and voice command application)."
               ghLink="https://github.com/lakshya2601/Voice-Powered-Budget-Tracker"
               demoLink="https://voice-powered-budget-tracker-ifji9una3-lakshya2601.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather}
+              isBlog={false}
+              title="Weather App"
+              description="Designed and developed a responsive weather application using HTML, CSS, and JavaScript. Utilized third-party APIs to fetch real-time weather data for dynamic content. Demonstrated proficiency in full-stack development by deploying and hosting the application on Vercel for public accessibility. Emphasized attention to detail in creating a visually appealing and user-friendly interface."
+              ghLink="https://github.com/lakshya2601/Weather-App"
+              demoLink="https://weather-app-nu-beryl-28.vercel.app/"
             />
           </Col>
         </Row>
