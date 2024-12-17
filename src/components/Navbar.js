@@ -93,8 +93,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="mailto:lakshyaporwal2601@gmail.com"
-                target="my_email"
+                href="mailto:lakshyap2601@gmail.com"
+                target="_blank"
                 rel="noreferrer"
               >
                 Ping me!
@@ -103,7 +103,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/lakshya2601/Lakshya-Portfolio"
+                href="https://github.com/lakshya2601/my_Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

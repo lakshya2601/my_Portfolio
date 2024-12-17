@@ -8,22 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Lakshya Porwal </span>
-            from <span className="purple"> Indore , India.</span>
-            <br />I am pursuing bachelor's in Computer Science in SVVV,Indore.
+            Hi, I am <span className="purple">Lakshya Porwal </span>
+            from Indore, India. A passionate Front-End Developer with expertise
+            in <span className="purple">React.js, TypeScript,</span> and{" "}
+            <span className="purple">Tailwind CSS</span>. I thrive in building
+            responsive, user-focused web applications and love optimizing user
+            experiences. Currently, I&apos;m expanding my skills while working
+            on innovative projects in an agile environment.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Experience:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Cricket
+              <ImPointRight />
+              &nbsp;&nbsp;
+              <span className="purple">Ctruh Technologies</span>&nbsp;&nbsp;
+              (August 2024 &#45; Present)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Poems
+              <ImPointRight />
+              &nbsp; Turbotic Services Pvt. Ltd. &nbsp;&nbsp;(Dec 2023 &#45; May
+              2024)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight />
+              &nbsp; Tech Driven Basics Pvt. Ltd. &nbsp;&nbsp;(Jan 2023 &#45;
+              May 2023)
             </li>
           </ul>
 
