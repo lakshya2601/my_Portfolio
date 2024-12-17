@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-
+import projectNext from "../../Assets/Projects/projectNext.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import budget from "../../Assets/Projects/budget.jpeg";
 import make_easy from "../../Assets/Projects/make_easy.jpeg";
@@ -60,6 +60,16 @@ The technology used in this project are HTML, CSS, JavaScript, React.js, Materia
               description="Designed and developed a responsive weather application using HTML, CSS, and JavaScript. Utilized third-party APIs to fetch real-time weather data for dynamic content. Demonstrated proficiency in full-stack development by deploying and hosting the application on Vercel for public accessibility. Emphasized attention to detail in creating a visually appealing and user-friendly interface."
               ghLink="https://github.com/lakshya2601/Weather-App"
               demoLink="https://weather-app-nu-beryl-28.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={projectNext}
+              isBlog={false}
+              title="NextJS App"
+              description="Created a fully responsive web project using Next.js for server-side rendering, TypeScript for type safety, Tailwind CSS for modern styling, and Aceternity UI for sleek components. The design ensures seamless adaptability across mobile, tablet, and desktop devices, delivering a fast, scalable, and user-friendly experience with clean code and a polished interface."
+              ghLink="https://github.com/lakshya2601/NextJs-Project"
+              demoLink="https://next-js-project-lakshya-porwals-projects.vercel.app/"
             />
           </Col>
         </Row>
