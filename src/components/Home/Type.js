@@ -6,15 +6,19 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Developer",
-          "Passionate",
-          "Video Editor",
-          "Deterministic",
-          "Keen Learner",
+          "Responsive Web Design",
+          "React.JS",
+          "Next.JS",
+          "TypeScript",
+          "Tailwind CSS",
+          "GitHub",
+          "React Libraries",
+          "Node.js",
+          "SQL",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 40,
       }}
     />
   );
