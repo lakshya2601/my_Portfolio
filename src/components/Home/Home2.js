@@ -16,9 +16,10 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               <p>
-                <br /> Originally from India, I am a Web developer who is highly
-                motivated and committed to my work. I completed my bachelor's
-                degree in computer science at
+                <br /> Originally from India, I am a passionate Front-End
+                Developer with experience in building responsive, user-centric
+                web applications. I completed my bachelor's degree in computer
+                science at
                 <i>
                   <b className="purple">
                     {" "}
@@ -31,7 +32,12 @@ function Home2() {
               </p>
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> CSS, React.js and JavaScript. </b>
+                <b className="purple">
+                  {" "}
+                  React.js, Next.js, TypeScript, HTML, CSS, JavaScript, Tailwind
+                  CSS, Material UI, GSAP (for animations), Node.js, SQL, GitHub,
+                  Chrome DevTools, Responsive Web Design{" "}
+                </b>
               </i>
               <br />
               <br />
