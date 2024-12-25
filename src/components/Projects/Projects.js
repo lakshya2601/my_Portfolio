@@ -6,6 +6,7 @@ import netflix from "../../Assets/Projects/netflix.png";
 import budget from "../../Assets/Projects/budget.jpeg";
 import make_easy from "../../Assets/Projects/make_easy.jpeg";
 import weather from "../../Assets/Projects/weather.png";
+import remote_job_finder from "../../Assets/Projects/remote_job_finder.jpg";
 
 function Projects() {
   return (
@@ -68,6 +69,16 @@ The technology used in this project are HTML, CSS, JavaScript, React.js, Materia
               isBlog={false}
               title="NextJS App"
               description="Created a fully responsive web project using Next.js for server-side rendering, TypeScript for type safety, Tailwind CSS for modern styling, and Aceternity UI for sleek components. The design ensures seamless adaptability across mobile, tablet, and desktop devices, delivering a fast, scalable, and user-friendly experience with clean code and a polished interface."
+              ghLink="https://github.com/lakshya2601/NextJs-Project"
+              demoLink="https://next-js-project-lakshya-porwals-projects.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={remote_job_finder}
+              isBlog={false}
+              title="Remote Job Finder"
+              description="This React application simplifies remote job searching using React Query for efficient data fetching and caching, ensuring a responsive user experience. Built with Vite, it offers fast development and optimized production builds. Key features include dynamic job listings, search and filtering, detailed job views, and a bookmarking system. This app showcases modern React development for effortless remote job discovery."
               ghLink="https://github.com/lakshya2601/NextJs-Project"
               demoLink="https://next-js-project-lakshya-porwals-projects.vercel.app/"
             />
