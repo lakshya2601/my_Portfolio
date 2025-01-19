@@ -79,8 +79,8 @@ The technology used in this project are HTML, CSS, JavaScript, React.js, Materia
               isBlog={false}
               title="Remote Job Finder"
               description="This React application simplifies remote job searching using React Query for efficient data fetching and caching, ensuring a responsive user experience. Built with Vite, it offers fast development and optimized production builds. Key features include dynamic job listings, search and filtering, detailed job views, and a bookmarking system. This app showcases modern React development for effortless remote job discovery."
-              ghLink="https://github.com/lakshya2601/NextJs-Project"
-              demoLink="https://next-js-project-lakshya-porwals-projects.vercel.app/"
+              ghLink="https://github.com/lakshya2601/Remote_Job_Finder"
+              demoLink="https://remotejobfinder-tau.vercel.app/"
             />
           </Col>
         </Row>
