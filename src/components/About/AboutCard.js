@@ -23,8 +23,8 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight />
               &nbsp;&nbsp;
-              <span className="purple">Ctruh Technologies</span>&nbsp;&nbsp;
-              (August 2024 &#45; Present)
+              <span className="about-activity">Ctruh Technologies</span>
+              &nbsp;&nbsp; (Aug 2024 &#45; Jan 2025)
             </li>
             <li className="about-activity">
               <ImPointRight />
